@@ -1,0 +1,15 @@
+<html t:type="layout" title="About"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+	xmlns:p="tapestry:parameter">
+
+	<div>
+		<strong>${name}</strong>
+	</div>
+
+	<div>
+		<t:if test="name">
+			<t:actionlink t:id="changename" context="'Eyad'">Set name as Eyad</t:actionlink>
+		</t:if>
+	</div>
+
+</html>
